@@ -1,0 +1,232 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 8vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(136, 37, 37);
+}
+
+.li-navbar:hover {
+    background-color:rgb(136, 37, 37);
+    transition: .2s ease-in;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: left;
+    height: 40vh;
+}
+
+.img-content {
+    border-radius: 55%;
+    width: 500;
+    height: 500;
+    max-width: auto;
+    margin: 36%;
+    margin-top: 4%;
+}
+
+
+
+.h2-fotter {
+    font-size: xx-large;
+    margin-left: 36%;
+    margin-top: 12%;
+
+}
+
+.h1-fotter {
+    font-size: xxx-large;
+    margin-left: 36%;
+    margin-top: .5%;
+    color: rgb(136, 37, 37)
+}
+
+.p-footer {
+    font-size: large;
+    margin-left: 36%;
+    margin-top: 1%;
+}
+
+.h1-about {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20;
+}
+
+.p1-about {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40;
+}
+
+.p2-about {
+    font-size:larger ;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.h1-contact {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20;
+}
+
+.p1-contact {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40;
+}
+
+.p2-contact {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 49.5%;
+    margin-top: 2%;
+}
+
+.down {
+    transform: rotate(45deg)
+}
+
+.edukasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.school {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.univ {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.bahasa {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+
+.indo {
+    display: flex;
+    font-size: medium;
+    text-decoration: double;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.english {
+    display: flex;
+    font-size: medium;
+    text-decoration: dotted;
+    justify-content: center;
+    margin: 2%;
+}
+
+.jerman {
+    display: flex;
+    font-size: medium;
+    text-decoration: dotted;
+    justify-content: center;
+    margin: 2%;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ig {
+    width: 50;
+    height:50;
+    flex-direction: row;
+}
+
+.ige {
+    color: white;
+    height: 60;
+    width: 60;
+}
+
+.maps {
+    width: 50;
+    height: 40;
+    flex-direction: row;
+}
+
+.map {
+    color: white;
+    width: 60;
+    height: 50;
+}
+
+.email {
+    width: 50;
+    height: 40;
+    flex-direction: row;
+}
+
+.mail {
+    color: white;
+    width: 60;
+    height: 50;
+}
